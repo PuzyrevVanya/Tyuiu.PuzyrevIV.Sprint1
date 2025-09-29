@@ -46,4 +46,3 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task1.V15
         }
     }
 }
-    

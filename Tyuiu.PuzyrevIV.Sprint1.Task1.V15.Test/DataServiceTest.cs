@@ -14,8 +14,8 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task1.V15.Test
         {
             DataService ds = new DataService();
             double x = 5.0;
-            var res = ds.Calculate (x);
-            Assert.AreEqual (2, res);
+            var res = ds.Calculate(x);
+            Assert.AreEqual(2, res);
 
         }
     }
