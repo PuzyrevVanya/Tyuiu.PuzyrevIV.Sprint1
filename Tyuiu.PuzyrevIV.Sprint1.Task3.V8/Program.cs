@@ -15,15 +15,15 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task3.V8
         {
             DataService ds = new DataService();
 
-            Console.WriteLine("*************************************************************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                      *");
-            Console.WriteLine("*************************************************************************");
+            Console.WriteLine("************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                             *");
+            Console.WriteLine("************************************************");
 
             double StartAmount = 2500;
             double TymeDays = 30;
             double Percent = 20;
             double result = 41.10;
-            
+
             Console.WriteLine($"Величина вклада: {StartAmount} руб.");
             Console.WriteLine($"Срок вклада: {TymeDays} дней");
             Console.WriteLine($"Процентная ставка: {Percent}% годовых");
@@ -39,4 +39,3 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task3.V8
         }
     }
 }
-   
