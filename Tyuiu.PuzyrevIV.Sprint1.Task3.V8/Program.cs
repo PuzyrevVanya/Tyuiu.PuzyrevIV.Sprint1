@@ -13,6 +13,7 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task3.V8
     {
         static void Main(string[] args)
         {
+
             DataService ds = new DataService();
 
             Console.WriteLine("************************************************");
