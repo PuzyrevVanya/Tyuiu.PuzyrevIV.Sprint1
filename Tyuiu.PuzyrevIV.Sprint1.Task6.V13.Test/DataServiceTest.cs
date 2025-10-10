@@ -12,10 +12,10 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task6.V13.Test
         [TestMethod]
         public void ValidExpression()
         {
-            string strTest = "1 * 2 * 3";
+            string value = "а б в г д";
             DataService ds = new DataService();
             string res = ds.CheckWordsAlphabet;
-            string wait = "123";
+            string wait = "АБВГД";
             Assert.AreEqual(wait ,res);
         }
     }

@@ -12,7 +12,9 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task6.V13.Lib
     {
         public bool CheckWordsAlphabet(string value)
         {
-            throw new NotImplementedException();
+            value = value.Replace(" ", "");
+            value = value.Replace(" * ", "");
+            return value;
         }
     }
 }

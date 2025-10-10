@@ -20,13 +20,13 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task6.V13
             Console.WriteLine("************************************************");
 
             Console.WriteLine("Введите строку:");
-            string str = Console.ReadLine();
+            string value = Console.ReadLine();
 
             Console.WriteLine("************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                   *");
             Console.WriteLine("************************************************");
 
-            Console.WriteLine(ds.CheckWordsAlphabet(str));
+            Console.WriteLine(ds.CheckWordsAlphabet(value));
 
             Console.ReadKey();
         }
