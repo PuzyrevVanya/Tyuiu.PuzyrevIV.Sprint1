@@ -34,7 +34,7 @@ namespace Tyuiu.PuzyrevIV.Sprint1.Task7.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                            *");
             Console.WriteLine("*************************************************************************");
 
-            Console.WriteLine(string.Format("{0:F3}", 2.150883403395439));
+            Console.WriteLine(ds.Calculate(a, b, c));   
             Console.ReadKey();
         }
     }
